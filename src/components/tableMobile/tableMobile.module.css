@@ -1,0 +1,118 @@
+.emplyeetableMobile {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+.tableRow,.tableRowInfo {
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  height: 47px;
+  justify-content: space-around;
+  padding: 0 8px 0 8px;
+  width: 100%;
+
+}
+
+
+.tableCell, .tableCellDouble  {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+}
+.tableCellDouble,.employeeCellInfoDouble {
+  padding-right: 15px;
+  width: 55%;
+
+}
+
+.tableRowInfo {
+  border-top: 1px solid var(--gray-10);
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.employeeCellInfoDouble {
+  display: flex;
+  justify-content: space-between;
+  text-transform: none;
+  width: 55%;
+
+}
+
+.TableCellImage {
+  border: 1px solid blue;
+  width: 40%;
+
+}
+
+.tableBody {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.TableRowDrop, .TableRowDropOne {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;;
+  height: 50px;
+  width: 100%;
+
+}
+
+.TableRowDropOne {
+  align-items: end;
+  padding-bottom: 30px;
+  height: 80px;
+
+}
+
+.tableCellInfoTitle, .tableCellInfoContent {
+  width: 50%;
+
+}
+
+.tableCellInfoTitle {
+  color: var(--black);
+  font-weight: 500;
+  text-align: left;
+  padding-left: 8px;
+  width: 45%;
+
+}
+
+.tableCellInfoContent {
+  color: var(--black);
+  font-weight: 400;
+  text-align: right;
+  padding-right: 20px;
+  width: 55%;
+
+}
+
+.circle {
+  background-color: var(--white);
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  color: transparent;
+
+}
+
+.employeePhoto {
+  border-radius: 50%;
+  height: 34px;
+  margin-top: 8px;
+  width: 34px;
+
+}
+
+

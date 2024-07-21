@@ -1,0 +1,53 @@
+:root {
+  --black: #1C1C1C;
+  --gray-20: #9E9E9E;
+  --gray-10: #DFDFDF;
+  --gray-00: #F0F0F0;
+  --blue: #5A84C0;
+  --purple: #594ED2;
+  --gradient: linear-gradient(180deg, #5A84C0 0%, #594ED2 100%);
+
+  --white: #FFFFFF; 
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+body {
+  background-color: var(--gray-00);
+
+  }
+
+h1 {
+  color: var(--black);
+  font-weight: 500;
+  font-size: medium 24px;
+
+}
+
+h2, th {
+  color: var(--black);
+  font-weight: 500;
+  font-size: medium 16px;
+
+}
+
+h3, td {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+button {
+  background-color: transparent;
+  border-style: none;
+  
+}
+
